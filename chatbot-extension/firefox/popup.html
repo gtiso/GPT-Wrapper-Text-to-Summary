@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Summarizer and Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Text Summarizer</h1>
+  <textarea id="inputText" placeholder="Enter text to summarize..."></textarea>
+  <button id="summarizeButton">Summarize</button>
+  <h2>Summary</h2>
+  <p id="summaryText"></p>
+  <h2>Chat</h2>
+  <div id="chatBox">
+    <div id="chatMessages"></div>
+    <input type="text" id="userMessage" placeholder="Ask something about the summary...">
+    <button id="sendMessageButton">Send</button>
+  </div>
+  <h2>API Key</h2>
+  <input type="text" id="apiKeyInput" placeholder="Enter your OpenAI API key...">
+  <button id="saveApiKeyButton">Save API Key</button>
+  <script src="popup.js"></script>
+</body>
+</html>
